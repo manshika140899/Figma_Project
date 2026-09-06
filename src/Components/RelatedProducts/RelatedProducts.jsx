@@ -47,7 +47,7 @@ const RelatedProducts = () => {
             <div className="relative overflow-hidden">
 
               <img
-                src={`http://localhost:5000${item.image}`}
+                src={`https://figma-backend-pearl.vercel.app${item.image}`}
                 alt={item.name}
                 className="w-full h-[300px] object-cover transition-transform duration-500 group-hover:scale-105"
               />

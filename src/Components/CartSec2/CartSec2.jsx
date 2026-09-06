@@ -51,7 +51,7 @@ const CartSec2 = () => {
     const fetchProduct = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/gridCard/${id}`
+          `https://figma-backend-pearl.vercel.app/gridCard/${id}`
         );
 
         if (!response.ok) {
@@ -105,7 +105,7 @@ const CartSec2 = () => {
     location.state?.image ||
     (product.image?.startsWith("http")
       ? product.image
-      : `http://localhost:5000${product.image}`);
+      : `https://figma-backend-pearl.vercel.app${product.image}`);
 
 
   return (

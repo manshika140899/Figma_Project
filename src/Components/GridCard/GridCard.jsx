@@ -39,7 +39,7 @@ const GridCard = () => {
             <div className="relative overflow-hidden">
 
               <img
-                src={`http://localhost:5000${item.image}`}
+                src={`https://figma-backend-pearl.vercel.app${item.image}`}
                 alt={item.name}
                 className="w-full h-72 object-cover group-hover:scale-110 duration-500"
               />

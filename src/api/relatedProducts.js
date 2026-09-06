@@ -2,7 +2,7 @@ import axios from "axios";
 
 const getRelatedProducts = async () => {
 const response = await axios.get(
-"http://localhost:5000/relatedProducts"
+"https://figma-backend-pearl.vercel.app/relatedProducts"
 );
 
 return response.data;
@@ -10,7 +10,7 @@ return response.data;
 
 export const getSingleRelatedProduct = async (id) => {
 const response = await axios.get(
-`http://localhost:5000/relatedProducts/${id}`
+`https://figma-backend-pearl.vercel.app/relatedProducts/${id}`
 );
 
 return response.data;

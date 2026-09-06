@@ -10,7 +10,7 @@ const ProductDetail = () => {
     const fetchProduct = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/gridCard/${id}`
+          `https://figma-backend-pearl.vercel.app/gridCard/${id}`
         );
 
         const data = await response.json();
@@ -31,7 +31,7 @@ const ProductDetail = () => {
   return (
     <div>
       <img
-        src={`http://localhost:5000${product.image}`}
+        src={`https://figma-backend-pearl.vercel.app${product.image}`}
         alt={product.name}
       />
 

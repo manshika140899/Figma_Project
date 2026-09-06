@@ -2,7 +2,7 @@ import axios from "axios";
 
 const getAsgaardSofa = async (id) => {
   const response = await axios.get(
-    `http://localhost:5000/asgaardSofa/${id}`
+    `https://figma-backend-pearl.vercel.app/asgaardSofa/${id}`
   );
 
   return response.data;
@@ -10,7 +10,7 @@ const getAsgaardSofa = async (id) => {
 
 export const getAllAsgaardSofa = async () => {
   const response = await axios.get(
-    "http://localhost:5000/asgaardSofa"
+    "https://figma-backend-pearl.vercel.app/asgaardSofa"
   );
 
   return response.data;

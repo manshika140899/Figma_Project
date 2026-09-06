@@ -46,7 +46,7 @@ const ShopimgSec = () => {
             >
 
               <img
-                src={`http://localhost:5000${item.image}`}
+                src={`https://figma-backend-pearl.vercel.app${item.image}`}
                 alt={item.name}
                 className="w-full h-[301px] object-cover duration-500 group-hover:scale-105"
               />

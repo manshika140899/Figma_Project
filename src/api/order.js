@@ -2,7 +2,7 @@ import axios from "axios";
 
 const createOrder = async (orderData) => {
   const response = await axios.post(
-    "http://localhost:5000/orders",
+    "https://figma-backend-pearl.vercel.app/orders",
     orderData
   );
 

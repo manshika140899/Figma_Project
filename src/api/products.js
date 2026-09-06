@@ -2,7 +2,7 @@ import axios from "axios";
 
 const getProduct = async (id) => {
   const response = await axios.get(
-    `http://localhost:5000/gridCard/${id}`
+    `https://figma-backend-pearl.vercel.app/gridCard/${id}`
   );
 
   return response.data;
